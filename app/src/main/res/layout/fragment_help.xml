@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AboutFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE VICE CHANCELLOR"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/layout_vice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Phone Number: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Number"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email Address: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@id/cardview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                android:layout_below="@id/cardview1"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE REGISTRAR"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Phone Number: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Number"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email Address: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@id/cardview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                android:layout_below="@id/cardview2"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE DEAN OF STUDENT AFFAIRS"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Phone Number: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Number"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email Address: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@id/cardview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                android:layout_below="@id/cardview3"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE UNIVERSITY COUNCELLOR"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Phone Number: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Number"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email Address: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@id/cardview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                android:layout_below="@id/cardview4"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE BBSF PRESIDENT "
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Phone Number: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Number"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email Address: "
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:padding="8dp"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Email"
+                        android:layout_marginBottom="10dp"
+                        android:textIsSelectable="true"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
+

@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="INTRODUCTION"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction_socialmedia"
+            android:layout_below="@id/header1"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="DEFINITION OF SOCIAL MEDIA"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_below="@id/body1"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/definition_social"
+            android:layout_below="@id/header2"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="TYPES OF SOCIAL MEDIA PLATFORMS"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_below="@id/body2"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/types"
+            android:layout_below="@id/header3"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            />
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/body3"
+            android:layout_marginTop="5dp"
+            android:layout_marginVertical="30dp"
+            android:background="#ffffff"
+            android:layout_marginHorizontal="5dp">
+
+            <TableRow>
+                <!-- header for the table -->
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="S/N"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="FORMS"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="PLATFORMS"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Social Networking Sites"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook, Whatsapp, Google Plus, CafeMom, Gather, Fitsugar and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Micro-blogging sites"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter, Tumblr, Posterous and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Publishing Tools"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WordPress, Blogger, Squarespace and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collaboration Tools"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wikipedia, WikiTravel, WikiBooks and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating/Review Sites"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amazon rating, Angle's List and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Photo Sharing Sites"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flickr, Instagram, Pinterest and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video Sharing Sites"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Youtube, Vimeo, Viddler and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Broadcasting Tool"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold" android:textStyle="bold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blog Talk Radio, U-streeam, Livesteam and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Virtual Worlds"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Second Life, World of Warcraft Farmvill and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location Based Services"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check-Ins, Facebook places, Foursquare, Yelp and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Widgets"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile Badgets, Like Buttons and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Social Bookmarking and News"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Digg, Delicious and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aggregation Group Buying"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Groupon, Living Social, Crowd savings and other emerging platforms"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/header4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="USES OF SOCIAL MEDIA NOT ACCEPTABLE TO THE UNIVERSITY"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_below="@id/table1"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/body4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/useofsocialmedia"
+            android:layout_below="@id/header4"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:id="@+id/header5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="SOCIAL MEDIA OFFENCES AND SANCTIONS"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_below="@id/body4"
+            android:layout_marginTop="10dp"/>
+
+        <TableLayout
+            android:id="@+id/table2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header5"
+            android:layout_marginTop="5dp"
+            android:layout_marginVertical="30dp"
+            android:background="#ffffff"
+            android:layout_marginHorizontal="5dp">
+
+            <TableRow>
+                <!-- header for the table -->
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="S/N"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Offenses"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sanctions"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:background="#538DFA"
+                    android:textColor="#fff"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pornography viewing through the Social media Platforms(SMPs)"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rustication for Two Semesters"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to share or lure other students to particcipate in pornographic viewing and sharing"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rustication for Two Semesters"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to spread abusive and derogatory contents about a fellow or group of students"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rustication for Two Semesters"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to spread abusive and derogatory contents about Staff of the University"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expulsion"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to spread false information, rumour and other malicious contents about the University and its operations"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expulsion"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to defraud fellow Students or Staff"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expulsion"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to impersonate Students or members of Stsff in whatever form"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expulsion"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs to spread Pitorial Contents of the University and other uses calculated to tarnish the image of the University"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expulsion"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using the SMPs for virtual tour of the University without due written approval from the University Authority"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rustication for Two Semesters"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginHorizontal="1dp"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

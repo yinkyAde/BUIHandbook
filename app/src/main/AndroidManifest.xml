@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.buihandbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activities.Splash"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+            <activity android:name=".activities.About"
+                android:label="About"
+                android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.Help"
+            android:label="Help"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.History"
+            android:label="History"
+            android:parentActivityName=".activities.MainActivity"/>
+
+
+
+        <activity
+            android:name=".activities.sub_activities.Preamble"
+            android:label="Preamble"
+            android:parentActivityName=".activities.MainActivity"
+
+             />
+
+        <activity android:name=".activities.sub_activities.Resumption_Orientation"
+            android:label="Resumption/Orientation"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Registration_of_Students"
+            android:label="Registration of Student"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Matriculation"
+            android:label="Matriculation"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Identity_Cards"
+            android:label="Identity Cards"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Payments_of_Fees"
+            android:label="Payments of Fees"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Halls_of_Residence"
+            android:label="Halls of Residence"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Catering_Services"
+            android:label="Catering Services"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.University_Health_Services"
+            android:label="University Health Services"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.University_Library"
+            android:label="The University Library"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Counselling_Services"
+            android:label="Counselling Services In The University"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Code_of_Conduct"
+            android:label="Code of Conduct"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Sexual_Harassment"
+            android:label="Sexual Harassment"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Spritual_Life_On_Campus"
+            android:label="Spiritual Life On Campus"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Dress_Code"
+            android:label="Dress Code"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Rules_and_Regulations"
+            android:label="Rules and Regulation"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Student_Discipline"
+            android:label="Student Discipline"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Social_Life_On_Campus"
+            android:label="Social Life On Campus"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Drug_Abuse"
+            android:label="Drug Abuse"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Uses_Of_Social_Media"
+            android:label="Uses Of Social Media"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Student_Rep_Council"
+            android:label="Student Representative Council"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <activity android:name=".activities.sub_activities.Conclusion"
+            android:label="Conclusion"
+            android:parentActivityName=".activities.MainActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

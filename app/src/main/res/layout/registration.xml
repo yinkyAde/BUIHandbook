@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="PROCEDURE FOR REGISTRATION"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:layout_below="@id/header1"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="5dp"
+            android:textIsSelectable="true"
+            />
+
+    </RelativeLayout>
+</ScrollView>

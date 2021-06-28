@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AboutFragment"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESCRIPTION"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardview"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/description_about"
+                    android:layout_marginBottom="10dp"
+                    android:textIsSelectable="true"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="4dp"
+                android:layout_below="@id/cardview1"
+                app:cardElevation="50dp"
+                android:padding="8dp"
+                android:outlineAmbientShadowColor="#B3B3B3"
+                android:outlineSpotShadowColor="#B3B3B3"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YEAR OF DEVELOPMENT"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:layout_below="@id/text3"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text4"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="2020"
+                    android:layout_marginBottom="10dp"
+                    android:textIsSelectable="true"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
