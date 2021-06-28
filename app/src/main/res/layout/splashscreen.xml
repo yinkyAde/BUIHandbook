@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/image1"
-        android:layout_width="130dp"
-        android:layout_height="115dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
         android:background="@drawable/bowenlogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
